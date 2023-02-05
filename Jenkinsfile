@@ -1,7 +1,7 @@
 pipeline {
   agent any
     tools {
-      Docker 'docker'
+      docker 'docker'
     }
   stages {
     stage('Docker Build') {
