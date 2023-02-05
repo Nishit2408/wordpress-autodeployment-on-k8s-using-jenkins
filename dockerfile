@@ -5,7 +5,7 @@ FROM wordpress:5.7.1-php7.4-apache
 WORKDIR /var/www/html
 
 # Copy the custom theme to the container
-COPY  test.php /var/www/html/
+COPY  wordpress-code/test.php /var/www/html/
 
 # Copy the custom plugins to the container
 #COPY my-custom-plugins /var/www/html/wp-content/plugins/
