@@ -3,8 +3,8 @@ pipeline {
   stages {
     stage('Docker Build') {
       steps {
-          sh "ls"
-//        sh "docker build -t kmlaydin/podinfo:${env.BUILD_NUMBER} ."
+        sh "ls"
+        sh "docker build -t nishit2408/wordpress:${env.BUILD_NUMBER} ."
       }
     }
 }
